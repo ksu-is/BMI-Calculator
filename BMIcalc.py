@@ -32,7 +32,7 @@ def calculate_bmi(a=""):   # "a" is there because the bind function gives an arg
         messagebox.showinfo("Result", "Please enter valid data!")
     else:
         if bmi <= 18.5:
-            res = "Your BMI is " + str(bmi) + "\nRemarks: Underweight!" #removed very severely underweight and severely underwight and just made one section for underweight 
+            res = "Your BMI is " + str(bmi) + "\nRemarks: Underweight!" #Removed very severely underweight and severely underwight sections and just made one section for underweight to make it more simple 
             messagebox.showinfo("Result", res)
         elif 18.5 <= bmi <= 24.9:
             res = "Your BMI is " + str(bmi) + "\nRemarks: Normal."
@@ -44,7 +44,7 @@ def calculate_bmi(a=""):   # "a" is there because the bind function gives an arg
             res = "Your BMI is " + str(bmi) + "\nRemarks: Obese!"
             messagebox.showinfo("Result", res)  
         elif 35.0 < bmi <= 40.0:
-            res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" #removed other sections they had for obese but not sure if I have eneded it correctly
+            res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" #Removed other obese sections and chanhged the wording but not sure if I have eneded it correctly
             messagebox.showinfo("Result", res)
         else:
             res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" 
