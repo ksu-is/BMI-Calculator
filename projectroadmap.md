@@ -2,3 +2,8 @@
 - [x] Create roadmap file
 - [x] Create Read.me 
 - [ ] Upload NILESH8757/BMI-Calculator
+- [ ] Clone the files to GitHub and in Visual Studio
+- [ ] Run Code
+- [ ] Evaluate code and identify problems
+- [ ] Comment on probelems or on things I have done 
+- [ ] Find solutions for problems
