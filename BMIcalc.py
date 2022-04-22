@@ -55,10 +55,10 @@ if __name__ == '__main__':
     TOP = Tk()
     TOP.bind("<Return>", calculate_bmi)
     TOP.geometry("400x400")
-    TOP.configure(background="#307678")
+    TOP.configure(background="#783230") #changed the color 
     TOP.title("BMI Calculator")
     TOP.resizable(width=False, height=False)
-    LABLE = Label(TOP, bg="#307678", text="Welcome to BMI Calculator", font=("Helvetica", 15, "bold"), pady=10)
+    LABLE = Label(TOP, bg="#783230", text="Welcome to BMI Calculator", font=("Helvetica", 15, "bold"), pady=10)
     LABLE.place(x=55, y=0)
     LABLE1 = Label(TOP, bg="#cef0f1", text="Enter Weight (in kg):", bd=6,
                    font=("Helvetica", 10, "bold"), pady=5)
