@@ -6,4 +6,5 @@
 - [x] Run Code
 - [ ] Evaluate code and identify problems
 - [ ] Comment on probelems or on things I have done 
+- [ ] Made changes that is specific to my calculator
 - [ ] Find solutions for problems
