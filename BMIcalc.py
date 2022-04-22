@@ -44,7 +44,7 @@ def calculate_bmi(a=""):   # "a" is there because the bind function gives an arg
             res = "Your BMI is " + str(bmi) + "\nRemarks: Obese!"
             messagebox.showinfo("Result", res)  
         elif 35.0 < bmi <= 40.0:
-            res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" #removed other section they had for obese but not sure if I have eneded it correctly
+            res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" #removed other sections they had for obese but not sure if I have eneded it correctly
             messagebox.showinfo("Result", res)
         else:
             res = "Your BMI is " + str(bmi) + "\nRemarks: Extremely obese!" 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     TOP.configure(background="#783230") #changed the color 
     TOP.title("BMI Calculator")
     TOP.resizable(width=False, height=False)
-    LABLE = Label(TOP, bg="#783230", text="Welcome to BMI Calculator", font=("Helvetica", 15, "bold"), pady=10)
+    LABLE = Label(TOP, bg="#783230", text="Welcome to BMI Calculator", font=("Avenir Next Condensed", 15, "bold"), pady=10) #attempted to change the font
     LABLE.place(x=55, y=0)
     LABLE1 = Label(TOP, bg="#cef0f1", text="Enter Weight (in kg):", bd=6,
                    font=("Helvetica", 10, "bold"), pady=5)
