@@ -1,6 +1,6 @@
 - [x] Create repository
-- [x] Create roadmap file
-- [x] Create Read.me 
+- [x] Create Read.me
+- [x] Create roadmap.md
 - [x] Upload NILESH8757/BMI-Calculator
 - [x] Clone the files to GitHub and in Visual Studio
 - [x] Run Code
