@@ -9,6 +9,7 @@ SPRINT 1
 - [ ] Comment on probelems or on things I have done 
 - [ ] Made changes that is specific to my calculator
 - [ ] Find solutions for problems
+
 SPRINT 3
 - [x] create splash screen
 - [x] upload splash screen
