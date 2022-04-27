@@ -8,3 +8,5 @@
 - [ ] Comment on probelems or on things I have done 
 - [ ] Made changes that is specific to my calculator
 - [ ] Find solutions for problems
+- [x] create. splash screen
+- [x] upload splash screen
