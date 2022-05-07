@@ -60,12 +60,12 @@ if __name__ == '__main__':
     TOP.resizable(width=False, height=False)
     LABLE = Label(TOP, bg="#783230", text="Welcome to BMI Calculator", font=("Avenir Next Condensed", 15, "bold"), pady=10) #attempted to change the font
     LABLE.place(x=55, y=0)
-    LABLE1 = Label(TOP, bg="#cef0f1", text="Enter Weight (in kg):", bd=6,
+    LABLE1 = Label(TOP, bg="#EB984E", text="Enter Weight (in kg):", bd=6,
                    font=("Avenir Next Condensed", 10, "bold"), pady=5)
     LABLE1.place(x=55, y=60)
     ENTRY1 = Entry(TOP, bd=8, width=6, font="Roboto 11")
     ENTRY1.place(x=240, y=60)
-    LABLE2 = Label(TOP, bg="#cef0f1", text="Enter Height (in cm):", bd=6,
+    LABLE2 = Label(TOP, bg="#EB984E", text="Enter Height (in cm):", bd=6,
                    font=("Avenir Next Condensed", 10, "bold"), pady=5)
     LABLE2.place(x=55, y=121)
     ENTRY2 = Entry(TOP, bd=8, width=6, font="Roboto 11")
